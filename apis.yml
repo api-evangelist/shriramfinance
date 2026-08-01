@@ -1,8 +1,25 @@
 aid: shriramfinance
-name: Shriramfinance
-description: 'Shriramfinance is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+name: Shriram Finance
+description: 'Shriram Finance Limited is one of India''s largest retail non-banking
+  financial companies (NBFC), with roughly Rs 3.02 lakh crore in assets under management
+  and 3,225 branches nationwide. It offers commercial-vehicle, two-wheeler, used-car,
+  personal, business and gold loans, fixed deposits and fixed investment plans, general
+  and life insurance distribution, Bharat BillPay (BBPS) bill payments, and UPI through
+  its Shriram One app. The company runs consumer web and mobile products but publishes
+  no public developer API, developer portal, or OpenAPI specification; a partner portal
+  and a lending-service-provider program serve authorized business partners only.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.shriramfinance.in/media_1629469c2476817d47678a31aa59ade8b4529fcbd.svg
 url: https://raw.githubusercontent.com/api-evangelist/shriramfinance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Financial Services
+- NBFC
+- Lending
+- Insurance
+- Fixed Deposits
+- Bill Payments
+- UPI
+- Payments
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://shriramfinance.in
+  url: https://www.shriramfinance.in
+- type: About
+  url: https://www.shriramfinance.in/about-us
+- type: Blog
+  url: https://www.shriramfinance.in/articles
+- type: Support
+  url: https://www.shriramfinance.in/contact-us
+- type: TermsOfService
+  url: https://www.shriramfinance.in/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.shriramfinance.in/privacy-policy
+- type: DomainSecurity
+  url: security/shriramfinance-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
