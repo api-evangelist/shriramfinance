@@ -8,6 +8,17 @@ description: 'Shriram Finance Limited is one of India''s largest retail non-bank
   its Shriram One app. The company runs consumer web and mobile products but publishes
   no public developer API, developer portal, or OpenAPI specification; a partner portal
   and a lending-service-provider program serve authorized business partners only.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
