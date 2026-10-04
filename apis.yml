@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - NBFC
 - Lending
 - Insurance
@@ -63,6 +63,7 @@ tags_raw:
 - UPI
 - Payments
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
